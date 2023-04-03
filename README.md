@@ -6,7 +6,7 @@ The project aims to design an interactive Line Bot that can help track the to-do
 
 ## Project Flow
 
-![Project4](https://user-images.githubusercontent.com/112578755/229415569-d529bbed-fcce-4adf-b345-4b3eef5007d2.jpg)
+![Project4](https://user-images.githubusercontent.com/112578755/229415976-97aae94c-f5f3-474c-94ff-14f4ed1817d5.jpg)
 
 * First, AWS Lambda Function was built to connect dynamoDB (using `boto3`) and Line (using the `line-bot-sdk`).
 * To import the line package, you'll need to zip the package using EC2, and save it as a Lambda Layer.
