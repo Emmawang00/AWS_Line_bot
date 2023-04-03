@@ -4,7 +4,11 @@
 
 The project aims to design an interactive Line Bot that can help track the to-do list. Line is a message platform where people in Taiwan, Japan and Korea use in their daily life.
 
-* First, AWS Lambda Function was built to connect dynamoDB and Line (using the `line-sdk`.
+## Project Flow
+
+![Project4](https://user-images.githubusercontent.com/112578755/229415569-d529bbed-fcce-4adf-b345-4b3eef5007d2.jpg)
+
+* First, AWS Lambda Function was built to connect dynamoDB (using `boto3`) and Line (using the `line-bot-sdk`).
 * To import the line package, you'll need to zip the package using EC2, and save it as a Lambda Layer.
 * Second, you will need to set up two Environmental variables in configuration: `ACCESS_TOKEN` and `SECRET` generated from Line in the Lambda Function.
 * Create a table in dynamoDB with the key being `LineID`.
@@ -18,3 +22,4 @@ The project aims to design an interactive Line Bot that can help track the to-do
 
 ## How the Line Bot looks like 
 
+![Line_bot](https://user-images.githubusercontent.com/112578755/229415586-a2f0e0b6-a864-4e36-929b-fb048f274a43.jpg)
