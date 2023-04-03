@@ -22,4 +22,4 @@ The project aims to design an interactive Line Bot that can help track the to-do
 
 ## How the Line Bot looks like 
 
-![Line_bot](https://user-images.githubusercontent.com/112578755/229415586-a2f0e0b6-a864-4e36-929b-fb048f274a43.jpg)
+![Line_bot](https://user-images.githubusercontent.com/112578755/229415902-5165adca-af60-41fc-aa74-78639721c039.jpg)
